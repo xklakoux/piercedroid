@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlPicture"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".PictureActivity" >
+
+    <ImageView
+        android:id="@+id/ivPicture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_action_mem_img" />
+
+    <LinearLayout
+        android:id="@+id/lBottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/translucent_black" >
+
+        <ImageView
+            android:id="@+id/ivBall"
+            style="@style/jewellery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_jewellery_test1" />
+
+        <ImageView
+            android:id="@+id/ivRing"
+            style="@style/jewellery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_jewellery_test2" />
+
+        <ImageView
+            android:id="@+id/ivBarbell"
+            style="@style/jewellery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_jewellery_test3" />
+
+        <ImageView
+            android:id="@+id/ivCaptive"
+            style="@style/jewellery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_jewellery_test4" />
+
+        <ImageView
+            android:id="@+id/ivSpike"
+            style="@style/jewellery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_jewellery_test1" />
+
+        <ImageView
+            android:id="@+id/ivPlug"
+            style="@style/jewellery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_jewellery_test4" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivTrash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:background="@color/translucent_black"
+        android:src="@drawable/ic_trash"/>
+
+</RelativeLayout>
